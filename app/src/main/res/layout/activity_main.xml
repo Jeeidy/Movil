@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@color/sena"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:layout_marginBottom="30sp"
+        app:srcCompat="@drawable/logo_sena" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0sp"
+        android:ems="10"
+        android:hint="@string/edt_email"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50sp"
+        android:ems="10"
+        android:hint="@string/edt_pass"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:textAlignment="center"  />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/sena"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/google"
+        android:text="@string/edt_email" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/cuenta"
+        android:text="@string/btn_cuenta"
+        android:textColorLink="@color/cuenta"
+        android:layout_marginBottom="30sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edt_pass"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+</LinearLayout>
