@@ -1,6 +1,8 @@
 package com.sena.myapp1
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +18,10 @@ class recuperar_pass : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val text: TextView = findViewById(R.id.btn_recuperar)
+        text.setOnClickListener{
+            val intent: Intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
     }
-}
+}}
